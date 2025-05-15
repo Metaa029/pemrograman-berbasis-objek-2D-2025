@@ -1,5 +1,4 @@
 # modul 1 dan 2
-
 class mahasiswa:
     jumlah_mahasiswa=0
 
@@ -35,11 +34,10 @@ class mobil:
         self.nama=nama
         self.roda=roda
 
-    def bergerak(self):
-        print(f"mobil {self.nama}, beroda {self.roda} melaju dengan cepat.")
+        return(f"mobil {self.nama}, beroda {self.roda} melaju dengan cepat.")
 
     def berhenti(self):
-        print(f"mobil {self.nama}, beroda {self.roda} berhenti di parkiran kampus.")
+        return(f"mobil {self.nama}, beroda {self.roda} berhenti di parkiran kampus.")
     
 mobil1=mobil("pajero",4)
 mobil2=mobil("crv",4)
