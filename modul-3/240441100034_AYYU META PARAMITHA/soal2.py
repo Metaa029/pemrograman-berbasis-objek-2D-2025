@@ -55,7 +55,7 @@ pengiriman1 = PengirimanInternasional("Jakarta", "Singapura", "truk", "Garuda")
 pengiriman2 = PengirimanInternasional("Bandung", "Surabaya", "motor", "Lion Air")
 pengiriman3 = PengirimanInternasional("Medan", "Tokyo", "mobil", "Emirates")
 
-print(f"Estimasi pengiriman 1: {pengiriman1.estimasi_waktu()} hari, {pengiriman1.PengirimanInternasional()}")
+print(f"Estimasi pengiriman 1: {pengiriman1.estimasi_waktu()} hari")
 print(f"Estimasi pengiriman 2: {pengiriman2.estimasi_waktu()} hari")
 print(f"Estimasi pengiriman 3: {pengiriman3.estimasi_waktu()} hari")
 

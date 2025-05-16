@@ -34,6 +34,7 @@ class mobil:
         self.nama=nama
         self.roda=roda
 
+    def bergerak(self):
         return(f"mobil {self.nama}, beroda {self.roda} melaju dengan cepat.")
 
     def berhenti(self):
@@ -44,3 +45,25 @@ mobil2=mobil("crv",4)
 
 print(mobil1.bergerak())
 print(mobil2.berhenti())
+
+
+# overriding
+class hewan:
+    def bersuara(self):
+        print("hewan bersuara")
+
+class bebek(hewan):
+    def bersuara(self):
+        print("kwekk")
+
+class kambing(hewan):
+    def bersuara(self):
+        print("mbeee")
+
+suara=hewan()
+bebek=bebek()
+kambing=kambing()
+
+suara.bersuara()
+bebek.bersuara()
+kambing.bersuara()
